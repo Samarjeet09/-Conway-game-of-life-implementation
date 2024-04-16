@@ -17,6 +17,9 @@ so i want to have a basic window with a grid pattern which later i will call eac
  - also if we store them in a dict , we have ids of each rect 
 
 ## 3. Next lets detect mouse clicks and colour these rects /cells
+- how about we make a grid class
+- ok so we can simply calculate which cell we clicked by int dividing it by its size and from it we can get our idx for rect
+- now we have color updating
 
  
 
