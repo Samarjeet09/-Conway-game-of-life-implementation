@@ -21,5 +21,7 @@ so i want to have a basic window with a grid pattern which later i will call eac
 - ok so we can simply calculate which cell we clicked by int dividing it by its size and from it we can get our idx for rect
 - now we have color updating
 
+## 4. now lets now implement the logical aspect of the simulation
+- made the alive-status a 2d array
  
 
