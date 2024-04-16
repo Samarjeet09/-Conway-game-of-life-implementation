@@ -15,12 +15,11 @@ clock = pygame.time.Clock()
 running = True
 
 
-# Add control buttons to the right side of the window
+
 button_font = pygame.font.Font("freesansbold.ttf", 15)
 button_width = 150
 button_height = 70
 button_margin = 20
-# button_color = (100, 100, 100)
 button_hover_color = (150, 150, 150)
 
 
@@ -177,7 +176,6 @@ board = Grid(SCREEN, 25, WIDTH - 200, HEIGHT)
 
 while running:
     SCREEN.fill(BLACK)
-    # Draw control buttons
     draw_button(
         WIDTH - button_width - button_margin,
         button_margin,
@@ -216,7 +214,6 @@ while running:
             running = False
         if event.type == pygame.MOUSEBUTTONDOWN:
             x, y = pygame.mouse.get_pos()
-            # print(pygame.mouse.get_pos())
             if board.clickedInBoard(y, x):
                 board.cell_pressed(y, x)
         if event.type == pygame.KEYDOWN:
@@ -240,6 +237,6 @@ while running:
 
     pygame.display.flip()
 
-    clock.tick(15)
+    clock.tick(13)
 
 pygame.quit()
