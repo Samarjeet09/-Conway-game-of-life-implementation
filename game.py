@@ -55,6 +55,7 @@ def simulate_next_step(board):
 
 class Grid:
     """
+    Class to Implement the Game
     Args:
     screen_ref: reference to the screen to draw
     block_size: size of the block
