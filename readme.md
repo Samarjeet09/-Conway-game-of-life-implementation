@@ -32,8 +32,8 @@ class Grid:
     """
 ```
 ## Dependencies
-Python 3.x
-Pygame
+- Python 3.x
+- Pygame
 
 ## How to run
 ```bash
